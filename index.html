@@ -167,10 +167,42 @@ header img {
     display: block;
     margin: 0 auto;
 }
-     /* Estilos para celular */
-     @media (max-width: 600px) {
-            .quadro {
-                width: 90%;
+     /* Media queries para dispositivos móveis */
+        @media (max-width: 768px) {
+            .cabecalho {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .cabecalho img {
+                position: static;
+                margin-bottom: 1rem;
+            }
+
+            .cabecalho__menu {
+                flex-direction: column;
+                gap: 0;
+                margin-bottom: 1rem;
+            }
+
+            .apresentacao1 h3,
+            .apresentacao2 h3 {
+                font-size: 20px;
+                line-height: 32px;
+            }
+
+            .apresentacao1 p {
+                font-size: 12px;
+                line-height: 20px;
+            }
+
+            .apresentacao2 img {
+                max-width: 150px;
+                margin-left: 0;
+            }
+
+            .footer img {
+                max-width: 200px;
             }
         }
 </style>
