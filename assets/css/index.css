@@ -34,6 +34,9 @@ body{ background-image: url(logo.jpeg);
 
 body {
   background: rgb(105, 132, 124);
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden !important;
 }
 
  /* The side navigation menu */
